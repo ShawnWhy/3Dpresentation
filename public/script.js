@@ -1,134 +1,42 @@
 
 
 var APIKey= "61fec83c505722615ff089ec90d63d94";
-var backgroundColor;
 
-  capturedResponse=
-  {
-    "totalArticles": 297356,
-    "articles": [
-    {
-    "title": "Vekker oppsikt internasjonalt",
-    "description": "Norges protest blir lagt merke til.",
-    "content": "Gibraltar - Norge 0-3\nNorge protesterte mot VM i Qatar før kveldens seier mot Gibraltar.\nStåle Solbakken hadde på seg en T-skjorte hvor det sto «Respect on and off the pitch», mens spillerne brukte t-skjorter med «Human rights on and off the pitch» u... [578 chars]",
-    "url": "https://www.dagbladet.no/sport/vekker-oppsikt-internasjonalt/73570276",
-    "image": "https://www.dagbladet.no/images/73570596.jpg?imageId=73570596&panow=100&panoh=100&panox=0&panoy=0&heightw=100&heighth=100&heightx=0&heighty=0&width=1200&height=630",
-    "publishedAt": "2021-03-24T21:46:51Z",
-    "source": {
-    "name": "Dagbladet.no",
-    "url": "https://www.dagbladet.no"
-    }
+var backgroundColor;
+const information = {
+    Altria:{
+        information:"Altria is one of the largest corporations in the United States. They are the former Philip Morris and has now rebranded themselves to focus on tobacco adjacent and tobacco-related products.  They are also the parent company of a few alcohol-related businesses and are involved in the newly-legalized cannabis business. ",
+        subinformation:{
+            phish:"Altria employees receive a multitude of suspicious email every day.  We screen through each of the email deemed suspicious by the employees and determine if they are legitimate or are illegal phishing efforts. the messages are run through a series of scanning tools and are evaluated with its context. Dmarc is also used to determine the veracity of the email sender information."
+
+        }
     },
-    {
-    "title": "Massive container ship blocking Suez Canal paralyses trade for second day",
-    "description": "The Ever Given was grounded early Tuesday amid poor visibility caused by a dust storm and wind speeds that reached 40 knots.. Read more at straitstimes.com.",
-    "content": "CAIRO (BLOOMBERG) - Tugs and diggers have so far failed to dislodge a massive container ship stuck in the Suez Canal on Wednesday (March 24), increasing the chances of prolonged delays in what is arguably the world’s most important waterway.\nWork to ... [5274 chars]",
-    "url": "https://www.straitstimes.com/world/suez-canal-stays-blocked-as-efforts-to-dislodge-stuck-container-ship-continues",
-    "image": "https://www.straitstimes.com/s3/files/styles/x_large/public/articles/2021/03/24/ak_eg3_2403.jpg?itok=byer4se2",
-    "publishedAt": "2021-03-24T21:42:43Z",
-    "source": {
-    "name": "The Straits Times",
-    "url": "https://www.straitstimes.com"
-    }
+    HamiltonBeach:{
+        information:"Hamilton Beach is one of the largest Manufacturer and distributor of home appliance and related products in the United States. Its headquarters is located in the City of Richmond and one of its main distribution centers is in the town of Olive Branch, MS.  It also has branches in NC, Mexico City and Canada.",
+        subinformation:{
+            support:"Hamilton Beach uses AS400, HighJump and Epicore to manage and record all transactions. there are frequent errors that are inherent in the process of machine and human operation.  We escalate these issues to the appropriate technician.  We also help smooth over the operational errors of HBB employees by trouble shooting software errors, Active directory errors, and hardware errors in the first tier.",
+            monitor:"We also help monitor the servers that runs the HBB database.  As they frequently run into errors and outages.",
+        }
     },
-    {
-    "title": "Momentum builds within Liberal party to consider quotas for women even as divisions emerge",
-    "description": "Defence industry minister Melissa Price says ‘the time has come’ for some kind of quota system to attract ‘qualified and motivated women’",
-    "content": "The federal social services minister, Anne Ruston, has pushed back against growing calls within her own party for the Liberals to adopt a quota system for women, saying politicians should not “dictate” decisions in a democratic party.\nBut the push fo... [5994 chars]",
-    "url": "https://www.theguardian.com/australia-news/2021/mar/25/momentum-builds-within-liberal-party-to-consider-quotas-for-women-even-as-divisions-emerge",
-    "image": "https://i.guim.co.uk/img/media/c0f355857d161df4f33a95e37e6ff66311c7fe9c/0_65_3320_1993/master/3320.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=a1a5792bbfa5168e120bc427ca891822",
-    "publishedAt": "2021-03-24T21:39:00Z",
-    "source": {
-    "name": "The Guardian",
-    "url": "https://www.theguardian.com"
-    }
+    Teamwork:{
+        information:"We perform website maintenance and hosting for various businesses which include adding features and fixing operational errors.",
+        subinformation:{
+            wordpress:"WordPress is an extremely flexible content management system that runs on php.  it is extremely customizable and can be augmented with various add-ons (such as woocommerce) to perform various back-end operations.",
+            Joombla:"Joombla is a CMS that is a little less coding oriented and less customizable than WordPress. ",
+            SiteCore:"SiteCore is a CMS based off the ASP.net framework.  Instead of Php, it runs off the C# language for its backend.  Sitecore's advantage over the other two CMS seems to be its ability to delegate  different levels of credentials for the developers to have different levels of flexibility and control over the content and design of the webpages.",
+        }
     },
-    {
-    "title": "Målløs Haaland da Norge slo miniputten Gibraltar",
-    "description": "Erling Braut Haaland måtte gå målløs av banen da Norge enkelt slo Gibraltar.",
-    "content": "Erling Braut Haaland måtte gå målløs av banen da Norge enkelt slo Gibraltar.\nGibraltar – Norge 0–3 (0–2)\nDet ble en frustrerende førsteomgang for landslaget, men like før pause løsnet det endelig.\nGibraltars keeper Dayle Coleing sto som en levende ve... [3793 chars]",
-    "url": "https://www.tv2.no/a/13908592/",
-    "image": "https://www.cdn.tv2.no/images/13908893.jpg?imageId=13908893&panow=100.00514208145&panoh=51.02813877551&panox=0.0051420814479575&panoy=17.006802721088&heightw=40.77740944206&heighth=100.0073316129&heightx=16.309012875536&heighty=0.0073316129032169&width=1200&height=630",
-    "publishedAt": "2021-03-24T21:37:39Z",
-    "source": {
-    "name": "TV 2",
-    "url": "https://www.tv2.no"
+    Sycom:{
+        information:" Sycom is a IT firm that manages the infrastructure of various businesses throughout the United States. Their services include customer/employee user interfaces and experience, Networking and Cyber security.",
+        subinformation:{
+            Ninja:"Ninja is a tool that we use to receive alerts from connected devices. Ninja also displays a overview of the status of each monitored device, including a list of running applications, network connectivity and storage space.",
+            SolarWind:"SolarWind is also a tool that we use to monitor devices and receive alerts from. All of the monitored devices are listed in a branching diagramatic fashion; and each of the devices can be easily navigated to, to observe its status",
+            ITGlue:"It glue is a application used to organize and store information on each of the monitored devices.  We use it to access important credentials inorder to access various virtual machines and Vsphere"
+
+        }
+
     }
-    },
-    {
-    "title": "DOH wants vaccine line-jumpers punished; 5 mayors must explain",
-    "description": "The Department of Health (DOH) urged the public on Wednesday to watch closely the vaccination process to make sure that only people on the government’s priority list get shots against COVID-19 as the home affairs office ordered five mayors to explain why they were inoculated ahead of their turn to be vaccinated.",
-    "content": "MANILA, Philippines — The Department of Health (DOH) urged the public on Wednesday to watch closely the vaccination process to make sure that only people on the government’s priority list get shots against COVID-19 as the home affairs office ordered ... [7676 chars]",
-    "url": "https://newsinfo.inquirer.net/1411062/doh-wants-vaccine-line-jumpers-punished-5-mayors-must-explain",
-    "image": "https://newsinfo.inquirer.net/files/2021/03/News135352-620x351.jpg",
-    "publishedAt": "2021-03-24T21:34:00Z",
-    "source": {
-    "name": "INQUIRER.net",
-    "url": "https://newsinfo.inquirer.net"
-    }
-    },
-    {
-    "title": "Isro’s Chandrayaan-3 launch next year: Govt",
-    "description": "The space agency earlier planned to launch the Chandrayaan 3 mission either in late 2020 or early 2021. However, most missions were rescheduled due to the Covid-19 pandemic.",
-    "content": "The Indian Space Research Organisation (Isro) plans to launch its third mission to the Moon next year, the government said on Wednesday. In a written response to a question in the Lok Sabha, minister of state for the department of space, Jitendra Sin... [2821 chars]",
-    "url": "https://www.hindustantimes.com/india-news/isros-chandrayaan-3-launch-next-year-govt-101616619292766.html",
-    "image": "https://images.hindustantimes.com/img/2021/03/24/1600x900/_326c0358-2d6e-11eb-b9a2-d7de0b3760e9_1616621108852.png",
-    "publishedAt": "2021-03-24T21:26:40Z",
-    "source": {
-    "name": "Hindustan Times",
-    "url": "https://www.hindustantimes.com"
-    }
-    },
-    {
-    "title": "Hernando de Soto",
-    "description": "“He logrado hacerlo sin quitarle ninguna vacuna a mis compatriotas”, dijo el candidato presidencial de Avanza País a su llegada a Cusco la tarde de este miércoles.",
-    "content": "Conforme a los criterios de Saber más\nLuego de que las especulaciones crecieran en redes sociales, el candidato presidencial Hernando de Soto, de Avanza País, admitió este miércoles que se ha vacunado contra el COVID-19 durante sus recientes viajes a... [6917 chars]",
-    "url": "https://elcomercio.pe/politica/elecciones/elecciones-2021-hernando-de-soto-confirma-que-se-vacuno-contra-la-covid-19-en-estados-unidos-avanza-pais-covid-19-noticia/",
-    "image": "https://elcomercio.pe/resizer/XEOG-nQdIs57-Q79bfwZxC4UF24=/980x528/smart/filters:format(jpeg):quality(75)/cloudfront-us-east-1.images.arcpublishing.com/elcomercio/2KRYGKM3JRCB3FWD3UYQ27NRKM.jpg",
-    "publishedAt": "2021-03-24T21:09:34Z",
-    "source": {
-    "name": "El Comercio Perú",
-    "url": "https://elcomercio.pe"
-    }
-    },
-    {
-    "title": "Jennifer Lopez og Alex Rodriguez:",
-    "description": "Selv om Jennifer Lopez og Alex Rodriguez ikke har endt forholdet, skal de likevel ha sine utfordringer.",
-    "content": "Tidligere i mars lyste skjermer verden over opp, da flere nettsteder kunne melde at Jennifer Lopez (51) og forloveden Alex Rodriguez (45) hadde brutt forlovelsen.\nDet viste seg imidlertid ikke å stemme, noe paret selv avkreftet.\n- Alle artiklene stem... [3713 chars]",
-    "url": "https://www.seher.no/kjendis/gjor-alt-de-kan/73570236",
-    "image": "https://www.seher.no/images/73570440.jpg?imageId=73570440&panow=100.00521284404&panoh=33.950166972477&panox=0.0052128440366909&panoy=5.5045871559633&heightw=100&heighth=100&heightx=0&heighty=0&width=1200&height=630",
-    "publishedAt": "2021-03-24T21:08:17Z",
-    "source": {
-    "name": "Seoghør.no",
-    "url": "https://www.seher.no"
-    }
-    },
-    {
-    "title": "Virginia Gov. Ralph Northam signs law abolishing death penalty",
-    "description": "After centuries of carrying out executions, Virginia on Wednesday became the 23rd state to abolish the death penalty after Gov. Ralph Northam signed historic legislation into law that ends capital punishment in the commonwealth.",
-    "content": "Gov. Ralph Northam walks past the holding cells next to the death chamber during a tour at the Greensville Correctional Center prior to signing a bill abolishing the state's death penalty in Jarratt, Virginia, on Wednesday, March 24.\n(CNN) —\nAfter ce... [5319 chars]",
-    "url": "https://www.cnn.com/2021/03/24/politics/virginia-governor-signs-law-death-penalty/index.html",
-    "image": "https://cdn.cnn.com/cnnnext/dam/assets/210324141323-01-northam-dealth-penalty-bill-0324-super-169.jpg",
-    "publishedAt": "2021-03-24T21:04:00Z",
-    "source": {
-    "name": "CNN",
-    "url": "https://www.cnn.com"
-    }
-    },
-    {
-    "title": "ההתרסקות של סער מוכיחה: יורשו של נתניהו יגיע מבית",
-    "description": "יו\"ר תקווה חדשה, שמאגפת את ראש הממשלה מימין, קיווה לסיים עם יותר משישה מנדטים. מהלך לאיחוד עם בנט היה מעלה את הסיכויים להוצאת נתניהו מבלפור, אך התכתשות ביניהם הביאה לאיבוד קולות. ולמרות הכשלון, ישנה דרך נוספת שיכולה לשנות דרמטית את התמונה",
-    "content": "רוב ראשי המפלגות ביקשו אמש (שלישי) להמתין לתוצאות הרשמיות בבחירות לכנסת ה-24, מרביתם גזרו על עצמם שתיקה זמנית אבל אחד מהם כבר הבין שהסיבוב הקרוב מבחינתו נגמר בהפסד. יו\"ר תקווה חדשה, גדעון סער, עמד אתמול בלילה על הבמה במטה המפלגה, והודה כי הייתה לו תק... [739 chars]",
-    "url": "https://elections.walla.co.il/item/3425707",
-    "image": "https://img.wcdn.co.il/f_auto,w_1200,t_54/ar_1.91,c_fill,g_auto/l_black_line,g_south,w_1.0,h_0.1,fl_relative,o_90/g_south_east,x_15,y_12,l_logo_2020,w_250/3/1/4/8/3148513-46.jpg",
-    "publishedAt": "2021-03-24T21:02:20Z",
-    "source": {
-    "name": "וואלה!",
-    "url": "https://elections.walla.co.il"
-    }
-    }
-    ]
-    }
+}
 
 window.addEventListener("DOMContentLoaded",function(){
 
@@ -235,6 +143,7 @@ window.addEventListener("DOMContentLoaded",function(){
                    
                });
             $(".Altria").on("click",e=>{
+                $(".information").addClass("invisibleP")
                 light.position.y=5
                 scene.activeCamera=camera2;
             // camera2.attachControl(canvas,true);
@@ -242,6 +151,7 @@ window.addEventListener("DOMContentLoaded",function(){
 
             })
             $(".HBB").on("click",e=>{
+                $(".information").addClass("invisibleP")
                 light.position.y=-2.5
                 scene.activeCamera=camera3;
             // camera3.attachControl(canvas,true);
@@ -249,6 +159,8 @@ window.addEventListener("DOMContentLoaded",function(){
 
             })
             $(".Website").on("click",e=>{
+                $(".information").addClass("invisibleP")
+
                 light.position.y=-6.5
                 scene.activeCamera=camera4;
             // camera4.attachControl(canvas,true);
@@ -256,25 +168,134 @@ window.addEventListener("DOMContentLoaded",function(){
 
             })
             $(".Sycom").on("click",e=>{
+                $(".information").addClass("invisibleP")
                 light.position.y=12
                 scene.activeCamera=camera5;
             // camera5.attachControl(canvas,true);
 
 
             })
-               
+          
+            function displayinfoAltria(){
+                $(".subdescription").text("")
+               $(".information").removeClass("invisibleP")
+                $(".description").text(information.Altria.information)
+                $(".title").text("Altria Group")
+                $(".subButton").addClass("invisibleP")
 
+                $(".Phish").removeClass("invisibleP")
+
+            }
+            function displayinfoHBB(){
+                $(".subdescription").text("")
+                $(".information").removeClass("invisibleP")
+                $(".description").text(information.HamiltonBeach.information)
+                $(".title").text("Hamilton Beach")
+                $(".subButton").addClass("invisibleP")
+
+                $(".Support").removeClass("invisibleP")
+                $(".Monitoring").removeClass("invisibleP")
+            }
+
+            function displayinfoWebsite(){
+                $(".subdescription").text("")
+                $(".information").removeClass("invisibleP")
+                $(".description").text(information.Teamwork.information)
+                $(".title").text("Website Maintnance")
+                $(".subButton").addClass("invisibleP")
+                 $(".WordPress").removeClass("invisibleP")
+                $(".Joombla").removeClass("invisibleP")
+                $(".SiteCore").removeClass("invisibleP")
+
+            }
+            function displayinfoSycom(){
+                $(".subdescription").text("")
+                $(".information").removeClass("invisibleP")
+                $(".description").text(information.Sycom.information)
+                $(".title").text("Sycom")
+                $(".subButton").addClass("invisibleP")
+                 $(".SolarWind").removeClass("invisibleP")
+                $(".Ninja").removeClass("invisibleP")
+                $(".ItGlue").removeClass("invisibleP")
+
+            }
+            $(".Phish").on("click",event=>{
+                $(".subdescription").text(information.Altria.subinformation.phish)
+            })
+            $(".Support").on("click",event=>{
+                $(".subdescription").text(information.HamiltonBeach.subinformation.support)
+            })
+            $(".Monitoring").on("click",event=>{
+                $(".subdescription").text(information.HamiltonBeach.subinformation.monitor)
+            })
+            $(".WordPress").on("click",event=>{
+                $(".subdescription").text(information.Teamwork.subinformation.wordpress)
+            })
+            $(".Joombla").on("click",event=>{
+                $(".subdescription").text(information.Teamwork.subinformation.Joombla)
+            })
+            $(".SiteCore").on("click",event=>{
+                $(".subdescription").text(information.Teamwork.subinformation.SiteCore)
+            })
+            $(".SolarWind").on("click",event=>{
+                $(".subdescription").text(information.Sycom.subinformation.SolarWind)
+            })
+            $(".Ninja").on("click",event=>{
+                $(".subdescription").text(information.Sycom.subinformation.Ninja)
+            })
+            $(".ItGlue").on("click",event=>{
+                $(".subdescription").text(information.Sycom.subinformation.ITGlue)
+            })
+        
             
 
             var AltriaLogo = scene.getMeshByName("logo2")
             var warehouse = scene.getMeshByName("warehouse")
             var divs = scene.getMeshByName("div")
             var computers = scene.getMeshByName("computers")
+            AltriaLogo.isPickable=true;
+            warehouse.isPickable=true;
+            divs.isPickable=true;
+            computers.isPickable=true; 
+            AltriaLogo.actionManager = new BABYLON.ActionManager(scene);
+            AltriaLogo.actionManager.registerAction(
+                new BABYLON.ExecuteCodeAction( { trigger: BABYLON.ActionManager.OnPickTrigger, parameter:" "}, 
+                function(){
+                    displayinfoAltria();    
+                })
+            );
+            warehouse.actionManager = new BABYLON.ActionManager(scene);
+            warehouse.actionManager.registerAction(
+                new BABYLON.ExecuteCodeAction( { trigger: BABYLON.ActionManager.OnPickTrigger, parameter:" "}, 
+                function(){
+                        displayinfoHBB();
+                })
+            );
+            divs.actionManager = new BABYLON.ActionManager(scene);
+            divs.actionManager.registerAction(
+                new BABYLON.ExecuteCodeAction( { trigger: BABYLON.ActionManager.OnPickTrigger, parameter:" "}, 
+                function(){
+                        displayinfoWebsite();
+                })
+            );
+            computers.actionManager = new BABYLON.ActionManager(scene);
+            computers.actionManager.registerAction(
+                new BABYLON.ExecuteCodeAction( { trigger: BABYLON.ActionManager.OnPickTrigger, parameter:" "}, 
+                function(){
+                        displayinfoSycom();
+                })
+            );
 
-            console.log(divs)
+            $(".X").on("click",event=>{
+                $(".information").addClass("invisibleP");
+            })
 
-            console.log(AltriaLogo)
-            console.log(warehouse)
+
+
+            // console.log(divs)
+
+            // console.log(AltriaLogo)
+            // console.log(warehouse)
             camera2.setTarget(AltriaLogo);
             camera3.setTarget(warehouse);
             camera4.setTarget(divs);
